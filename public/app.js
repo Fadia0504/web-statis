@@ -223,7 +223,7 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi Zee,
+    const fullMessage = `Hi Nala,
 
 Happy Birthday!
 
@@ -264,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Zee,<br><br>Happy Birthday!<br><br>May your special day be filled with joy, laughter and unforgettable moments with the people who matter most (me). As you step into new chapter of your life, i wish you nothing but the best.<br><br>May the coming year bring you countless achievements, personal growth and meaningful experiences. Keep striving, keep shining and may happiness always follow you in everything you do 💕`;
+            const fullMessage = `Hi Nala,<br><br>Happy Birthday!<br><br>May your special day be filled with joy, laughter and unforgettable moments with the people who matter most (me). As you step into new chapter of your life, i wish you nothing but the best.<br><br>May the coming year bring you countless achievements, personal growth and meaningful experiences. Keep striving, keep shining and may happiness always follow you in everything you do 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -321,35 +321,35 @@ function startPhotoShow() {
     const photos = [
         {
             text: 'u are so pretty 💕',
-            image: './images/Zee 1.jpg'
+            image: './images/nau.jpeg'
         },
         {
             text: 'and gorgeous 😍',
-            image: './images/Zee 2.jpg'
+            image: './images/ngeces.jpeg'
         },
         {
             text: 'and cutie 🌟',
-            image: './images/Zee 3.jpg'
+            image: './images/gibran.jpeg'
         },
         {
             text: 'and adorable ❤️',
-            image: './images/Zee 4.jpg'
+            image: './images/botak.jpeg'
         },
         {
             text: 'and beautifull 🥰',
-            image: './images/Zee 5.jpg'
+            image: './images/gtw.jpeg'
         },
         {
             text: 'and charming 💖',
-            image: './images/Zee 6.jpg'
+            image: './images/y.jpeg'
         },
         {
             text: 'umm..ilysm 😳',
-            image: './images/Rawrr.jpg'
+            image: './images/bahlil.jpeg'
         },
         {
-            text: 'KASIH FOTO YG BANYAK WOI 😡',
-            image: './images/Marah.jpg'
+            text: 'JGN LUPA MAKAN, BIAR GK ASLAM 😡',
+            image: './images/owo.jpeg'
         }
     ];
     
@@ -376,7 +376,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY FINESHYT 💕</div>
+            <div class="photo-strip-footer">💕 BIRTHDAY NALA 💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
@@ -614,8 +614,8 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/7KWsFZGi27TQHlRjYJCObd?si=-6Dw5GDwQHW0ay-Eq__J2A&pi=PfTEoAA7TQqvM',
-            name: 'For you Zee',
+            embedUrl: 'https://open.spotify.com/embed/playlist/1WKnRxu46Xn2JB1wSMboqN?si=4hYGN2XHQrS8aDJSfFOGlA',
+            name: 'For you Nala',
             description: 'This playlist describes how pretty youu are ❤️'
         },
         3: {
